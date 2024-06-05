@@ -1,18 +1,20 @@
 
-!<!DOCTYPE>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Momentum</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <div id="login-form">
-      <input type="text" placeholder="Type in your Name">
+    <form id="login-form">
+      <input type="text" placeholder="Type in your Name" 
+      maxlength="15"
+      required>
       <button> login </button>
-    </div>
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
     <script src="app.js"></script>
   </body>
 </html>
