@@ -8,8 +8,18 @@
   box-sizing: border-box;
    }
 
-body {
+body html {
+  margin: 0;
   overflow: hidden;
+  padding: 0;
+  height: 100%;
+}
+
+
+.main-body {
+  margin: auto;
+  background: blue;
+  text-align: center;
 }
 
 .hidden {
