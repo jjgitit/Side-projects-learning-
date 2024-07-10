@@ -2,6 +2,7 @@
 @import "todo.css";
 @import "login-form.css";
 @import "weather.css";
+@import "quote.css";
 
 
 * {
@@ -18,8 +19,8 @@ body html {
 
 .main-body {
   margin: auto;
-  background: blue;
   text-align: center;
+  color: white;
 }
 
 .hidden {
@@ -28,5 +29,9 @@ body html {
 
 #quote {
   text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 

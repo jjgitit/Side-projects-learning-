@@ -9,7 +9,6 @@ function geoOk(position) {
     const city = document.querySelector("#weather span:last-child");
     city.innerText = data.name;
     weather.innerText = `${data.weather[0].main} / ${data.main.temp}`;
-    console.log(city, weather);
   }); //this is calling the url
 }
 

@@ -12,11 +12,12 @@
       <form id="login-form" class="hidden">
         <input type="text" placeholder="Type in your Name" 
         maxlength="15"
-        required>
-        <button> login </button>
+        required
+        class="login-input">
+        <button class="login-button"> login </button>
       </form>
     </div>
-    <div class="main-body">
+    <div class="main-body hidden">
       <h2 id="clock"></h2>
       <h1 id="greeting" class="hidden"></h1>
       <form id="todo-form">
@@ -24,11 +25,11 @@
       </form>
       <ul id="todo-list"></ul>
     </div>
-    <div id="quote">
+    <div id="quote" class="hidden">
       <span></span>
       <span></span>
     </div>
-    <div id="weather">
+    <div id="weather" class="hidden">
       <span></span>
       <span></span>
     </div>

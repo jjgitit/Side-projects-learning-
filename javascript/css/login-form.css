@@ -1,0 +1,27 @@
+
+.login-block {
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+  background: transparent;
+  margin: auto;
+}
+
+.login-button {
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: white;
+  font-style: italic;
+  padding: 5px;
+  font-size: 2em;
+}
+
+.login-input {
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  height: 50px;
+  background: transparent;
+}

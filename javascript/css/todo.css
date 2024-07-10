@@ -2,3 +2,8 @@
 #todo-form {
   text-align: center;
 }
+
+#todo-list {
+  align-content: center;
+  list-style-type: none;
+}
