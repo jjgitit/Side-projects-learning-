@@ -1,4 +1,5 @@
 const loginForm = document.querySelector("#login-form");
+const loginBlock = document.querySelector(".login-block");
 const loginInput = loginForm.querySelector("#login-form input");
 const greeting = document.querySelector('#greeting');
 const quoteBlock = document.querySelector("#quote");
@@ -13,6 +14,7 @@ const savedUsername = localStorage.getItem(USERNAME_KEY);
 function onLoginSubmit(event) {
   event.preventDefault();
   loginForm.classList.add(HIDDEN_CLASSNAME);
+  loginBlock.classList.add(HIDDEN_CLASSNAME);
   const username = loginInput.value;
   localStorage.setItem(USERNAME_KEY, username);
   paintGreetings(username);
@@ -24,6 +26,7 @@ function paintGreetings(username) {
   quoteBlock.classList.remove(HIDDEN_CLASSNAME);
   mainBodyBlock.classList.remove(HIDDEN_CLASSNAME);
   weatherBlock.classList.remove(HIDDEN_CLASSNAME);
+  loginBlock.classList.add(HIDDEN_CLASSNAME);
 }
 
 if (savedUsername === null) {

@@ -6,14 +6,13 @@
 
 
 * {
-  box-sizing: border-box;
-   }
+  font-family: "Playwrite DK Uloopet", cursive;
+}
 
 body html {
   margin: 0;
   overflow: hidden;
   padding: 0;
-  height: 100%;
 }
 
 
@@ -23,15 +22,22 @@ body html {
   color: white;
 }
 
+#clock {
+  font-size: 60px;
+  background-color: rgba(166,159, 163, 0.2);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
 .hidden {
   display: none;
 }
 
-#quote {
-  text-align: center;
-  color: white;
-  position: absolute;
-  bottom: 0;
-  right: 0;
+#greeting {
+  font-size: 50px;
+  position: relative;
+  top: 280px;
 }
+
 

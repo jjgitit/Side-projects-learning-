@@ -1,14 +1,17 @@
 
 .login-block {
-  position: absolute;
-  bottom: 40%;
-  left: 50%;
-  background: transparent;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .login-button {
   border-radius: 5px;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  color: white;
 }
 
 ::placeholder {

@@ -1,7 +1,18 @@
 
 #quote {
-  background-color: rgba(0, 0, 255, 0.5);
+  background-color: rgba(166,159, 163, 0.2);
   margin: 50px;
   padding: 10px;
   border-radius: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+span {
+  display: block;
 }

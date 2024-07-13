@@ -1,0 +1,10 @@
+#weather {
+  background-color: rgba(red, green, blue, alpha);
+  float: right;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 5px;
+  border-radius: 10px;
+  color: white;
+}
